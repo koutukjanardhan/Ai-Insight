@@ -51,7 +51,10 @@ sakila.db
 
 # Generated files
 retriever/faiss_index/
+retriever/*/faiss_index/
 vector_store/
+*.index
+*.pkl
 __pycache__/
 
 # Logs
