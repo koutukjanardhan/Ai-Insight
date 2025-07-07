@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+check.py
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+Scripts/
+Lib/
+Include/
+share/
+pyvenv.cfg
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+sakila.db
+
+# Generated files
+retriever/faiss_index/
+vector_store/
+__pycache__/
+
+# Logs
+*.log
+
+# Startup scripts (optional)
+# start.sh
+# start.bat
